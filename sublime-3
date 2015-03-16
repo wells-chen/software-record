@@ -1,0 +1,11 @@
+1. 解决中文显示问题.
+    package control:   https://packagecontrol.io/installation
+    在package control中输入  “Install Package”
+    在输入框内输入“CovertToUTF8”
+2. 开启vim模式
+    进入 preferences->Settings-User, 添加如下一行 
+    "ignored_packages": 
+     [ 
+      ] 
+      这句的意思是把忽略的包设置为空,意思是启用所有的包. 
+      现在保存,然后按 Esc ,你已经能简单使用 vim 的命令了
